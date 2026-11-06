@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver Registration"
+            android:textColor="#243B80"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join RideGo as a Driver"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#666666"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etDriverName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etDriverEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etDriverPhone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="12dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etLicense"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Driving License Number"
+            android:inputType="textCapCharacters"
+            android:padding="12dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etVehicleNumber"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Vehicle Number"
+            android:inputType="textCapCharacters"
+            android:padding="12dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="12dp"/>
+
+        <Spinner
+            android:id="@+id/spVehicleType"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_input"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etDriverPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etDriverConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnDriverRegister"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="REGISTER AS DRIVER"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3157C8"/>
+
+        <TextView
+            android:id="@+id/tvDriverGoLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already registered? Go to Login"
+            android:textColor="#3157C8"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="18dp"/>
+
+    </LinearLayout>
+</ScrollView>

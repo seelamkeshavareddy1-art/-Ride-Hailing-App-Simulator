@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440440294551",
+    "project_id": "ridego-7bee6",
+    "storage_bucket": "ridego-7bee6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440440294551:android:529507a9a9ac9c4b5fadd2",
+        "android_client_info": {
+          "package_name": "com.example.ridego"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB48ugxk3eVTQeQh63zGlHmw5-i4LqvgxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
